@@ -113,9 +113,9 @@ badguys、goodguys两个阵营的ArrayList，
 内部类KeyEventHandler用以处理键盘输入
 
 synchronized的fight和move保证同时只有一个生物可以攻击和移动，以防止资源冲突，
-初始化函数主要有gui、生物摆放、线程添加和开始的几种类型
-有相应gui刷新函数和结束的函数 guiEnd() guiRefresh()
-有读取和写入函数bufferReplay()、replay()和writeRecord()
+初始化函数主要有gui、生物摆放、线程添加和开始的几种类型，
+有相应gui刷新函数和结束的函数 guiEnd() guiRefresh()，
+有读取和写入函数bufferReplay()、replay()和writeRecord()，
 以及一些战场的标志函数例如isEnd()等
 
 ## 个人的一点感想
